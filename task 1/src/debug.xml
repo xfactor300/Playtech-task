@@ -1,0 +1,22 @@
+<assembly>
+    <id>debug</id>
+    <baseDirectory>debug</baseDirectory>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>${basedir}/debug</directory>
+            <includes>
+                <include>*.dll</include>
+            </includes>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+        <source>bin/doit.exe</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+    </files>
+</assembly>

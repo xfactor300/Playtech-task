@@ -1,0 +1,6 @@
+.idea
+/task 2/.python-version
+/task 1/src/target/
+venv
+tasks.pdf
+.DS_Store
